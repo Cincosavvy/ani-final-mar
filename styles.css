@@ -1,0 +1,60 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300; /* Set the font weight to 300 (Light) */
+}
+
+/* Add this rule to center the title on the page */
+.page-title {
+  text-align: center;
+  margin-bottom: 2rem; /* Add some space below the title */
+}
+/* Add this rule to center the smaller header on the page and adjust spacing */
+.sub-title {
+  text-align: center;
+  margin-top: 0.5rem; /* Add some space above the subtitle */
+  margin-bottom: 1.5rem; /* Add some space below the subtitle */
+}
+
+#search-container {
+  position: fixed;
+  top: 5px;
+  right: -10px;
+}
+
+#chart-container {
+  overflow: auto;
+  max-height: 90vh; /* Adjust this value based on your desired container height */
+}
+
+.tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+  pointer-events: none;
+  border-radius: 8px; /* Add this line to create rounded edges */
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 15px;
+  z-index: 1000;
+  border-radius: 8px; /* Add this line to create rounded edges */
+  backdrop-filter: blur(
+    5px
+  ); /* Add this line to create a blur effect on the background */
+}
+
+.anime-container {
+  margin-bottom: 10px;
+}
+
+.prev-button,
+.next-button {
+  margin-right: 10px;
+}

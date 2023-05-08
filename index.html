@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime Data Visualization</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+  </head>
+  <body>
+    <h1 class="page-title">Anime Data Visualization</h1>
+    <h2 class="sub-title">By: Marnier Crockton</h2>
+
+    <div id="search-container">
+      <label for="search">Search Anime:</label>
+      <input type="text" id="search" />
+    </div>
+
+    <div id="chart-container">
+      <div id="chart"></div>
+    </div>
+
+    <script src="barchart.js"></script>
+
+    <script src="histogram.js"></script>
+
+    <div
+      id="animeList"
+      style="border: 1px solid #ccc; padding: 1rem; margin-top: 1rem;"
+    ></div>
+  </body>
+</html>
